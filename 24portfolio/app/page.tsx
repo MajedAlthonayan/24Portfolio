@@ -18,36 +18,32 @@ export default function Home() {
 					</h1>
 
 					<div className="flex flex-row justify-center items-center bg-[#121212] space-x-4">
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#FFFFFF] text-[#111111] font-bold shadow-lg hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
 							<FontAwesomeIcon
 								icon={faLinkedin}
-								className="w-6 h-6 mr-2"
-							/>{" "}
-							{/* LinkedIn Icon */}
+								className="w-6 h-6 text-[#FFFFFF] mr-2" // LinkedIn color
+							/>
 							LinkedIn
 						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#FFFFFF] text-[#111111] font-bold shadow-lg hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
 							<FontAwesomeIcon
 								icon={faGithub}
-								className="w-6 h-6 mr-2"
-							/>{" "}
-							{/* GitHub Icon */}
+								className="w-6 h-6 text-[#FFFFFF] mr-2" // GitHub color
+							/>
 							GitHub
 						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#FFFFFF] text-[#111111] font-bold shadow-lg hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
 							<FontAwesomeIcon
 								icon={faEnvelope}
-								className="w-6 h-6 mr-2"
-							/>{" "}
-							{/* Mail Icon */}
+								className="w-6 h-6 text-[#FFFFFF] mr-2" // Email color
+							/>
 							Mail
 						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#FFFFFF] text-[#111111] font-bold shadow-lg hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
 							<FontAwesomeIcon
 								icon={faFileAlt}
-								className="w-6 h-6 mr-2"
-							/>{" "}
-							{/* Resume Icon */}
+								className="w-6 h-6 text-[#FFFFFF] mr-2" // Resume color
+							/>
 							Resume
 						</button>
 					</div>
@@ -80,18 +76,21 @@ export default function Home() {
 
 			<div className="w-1/2 mx-auto space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
 				<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-					<div className="flex items-center justify-center w-6 h-6 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-black text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
+					<div className="flex items-center justify-center w-4 h-4 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
 
-					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1.5rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#FFFFFF] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
-						<div className="flex items-center justify-between space-x-2 mb-1">
-							<div className="font-bold text-black">
-								Secondary Education - GCSE's
-							</div>
-							<time className="font-caveat font-medium text-black">
+					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#121212] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<div>
+							<time className="font-caveat font-bold text-white">
 								2016-2018
 							</time>
 						</div>
-						<div className="text-slate-500">
+						<div className="flex items-center justify- space-x-2 mb-1">
+							<div className="font-bold text-white">
+								Secondary Education - GCSE's
+							</div>
+						</div>
+						<br />
+						<div className="text-white">
 							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
 							morbi blandit cursus risus.
 						</div>
@@ -101,18 +100,20 @@ export default function Home() {
 				{/* <!-- Item #2 --> */}
 				<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
 					{/* <!-- Icon --> */}
-					<div className="flex items-center justify-center w-6 h-6 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-black text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
+					<div className="flex items-center justify-center w-4 h-4 rounded-full border border-white group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
 					{/* <!-- Card --> */}
-					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1.5rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#FFFFFF] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
-						<div className="flex items-center justify-between space-x-2 mb-1">
-							<div className="font-bold text-slate-900">
-								Secondary Education - A Level's
-							</div>
-							<time className="font-caveat font-medium text-black">
+					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#121212] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<div className="text-right">
+							<time className="font-caveat font-bold text-white text-right">
 								2018-2020
 							</time>
 						</div>
-						<div className="text-slate-500">
+						<div className="font-bold text-white text-right">
+							Secondary Education - A Level's
+						</div>
+
+						<br />
+						<div className="text-white text-right">
 							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
 							morbi blandit cursus risus.
 						</div>
@@ -121,24 +122,21 @@ export default function Home() {
 				{/* <!-- Item #3 --> */}
 				<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
 					{/* <!-- Icon --> */}
-					<div className="flex items-center justify-center w-6 h-6 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-black text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
+					<div className="flex items-center justify-center w-4 h-4 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
 					{/* <!-- Card --> */}
-					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1.5rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#FFFFFF] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
-						<div className="flex items-center justify-between space-x-2 mb-1">
-							<div className="font-bold text-slate-900">
-								Undergraduate Degree
-							</div>
-							<time className="font-caveat font-medium text-black">
-								2020-2023
-							</time>
-						</div>
-						<div className="font-bold text-slate-900">
+					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#121212] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<time className="font-caveat text-white font-bold">2020-2023</time>
+						<div className="font-bold text-white">Undergraduate Degree</div>
+
+						<div className="font-bold text-white">
 							Royal Holloway, University of London
 						</div>
 						<br />
-						<div className="text-slate-500">
+						<div className="text-white">
 							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus.
+							morbi blandit cursus risus. retium lectus quam id leo. Urna e
+							retium lectus quam id leo. Urna e retium lectus quam id leo. Urna
+							e retium lectus quam id leo. Urna
 						</div>
 					</div>
 				</div>
@@ -146,22 +144,25 @@ export default function Home() {
 				{/* <!-- Item #4 --> */}
 				<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
 					{/* <!-- Icon --> */}
-					<div className="flex items-center justify-center w-6 h-6 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-black text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
+					<div className="flex items-center justify-center w-4 h-4 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
 					{/* <!-- Card --> */}
-					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1.5rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#FFFFFF] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
-						<div className="flex items-center justify-between space-x-2 mb-1">
-							<div className="font-bold text-slate-900">
-								Postgraduate Degree
-							</div>
-							<time className="font-caveat font-medium text-black">
+					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-white shadow bg-[#121212] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						{/* <div className="flex items-center justify-between space-x-2 mb-1"> */}
+						<div className="text-right">
+							<time className="font-caveat font-bold text-white">
 								2023-2024
 							</time>
 						</div>
-						<div className="font-bold text-slate-900">
+						<div className="font-bold text-white text-right">
+							Postgraduate Degree
+						</div>
+
+						{/* </div> */}
+						<div className="font-bold text-white text-right">
 							Imperial College London
 						</div>
 						<br />
-						<div className="text-slate-500">
+						<div className="text-white text-right">
 							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
 							morbi blandit cursus risus.
 						</div>
@@ -171,15 +172,16 @@ export default function Home() {
 				{/* <!-- Item #5 --> */}
 				<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
 					{/* <!-- Icon --> */}
-					<div className="flex items-center justify-center w-6 h-6 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-black text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
+					<div className="flex items-center justify-center w-4 h-4 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
 
 					{/* <!-- Card --> */}
-					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1.5rem)] p-4 rounded border border-[#FFFFFF] shadow bg-[#FFFFFF] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
-						<div className="flex items-center justify-between space-x-2 mb-1">
-							<div className="font-bold text-slate-900">Certifications</div>
-							<time className="font-caveat font-medium text-black">2024</time>
-						</div>
-						<div className="text-slate-500">
+					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-white shadow bg-[#121212] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<time className="font-caveat font-bold text-white">2024</time>
+
+						<div className="font-bold text-white">Certifications</div>
+
+						<br />
+						<div className="text-white">
 							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
 							morbi blandit cursus risus.
 						</div>
