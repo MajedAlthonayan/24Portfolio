@@ -385,7 +385,9 @@ export default function Home() {
 			<div className="my-10 w-1/2 border-b border-[#FFFFFF] mx-auto border-2" />
 			<div className="flex justify-center mt-20">
 				<div className="text-left">
-					<h1 className="text-left text-5xl mb-10 text-[#FFFFFF]">Tech</h1>
+					<h1 className="text-left text-5xl mb-10 text-[#FFFFFF]">
+						Technologies & Applications
+					</h1>
 				</div>
 			</div>
 
@@ -393,7 +395,7 @@ export default function Home() {
 			<div className="max-w-5xl mb-10 mx-auto text-balance text-gray-500">
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-4 lg:grid-cols-6">
 					{/* <!-- Large box spanning 2x2 --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 md:row-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 md:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 ">
 						<p className="text-black font-bold">Photography</p>
 						<p className="mt-4 text-sm">
 							Capture moments in stunning detail with our advanced camera
@@ -402,7 +404,7 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Tall box spanning 3 rows --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Coding</p>
 						<p className="mt-4 text-sm">
 							Build the future with powerful development tools. From web to
@@ -411,7 +413,7 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Regular box --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-3 lg:row-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-3 lg:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Music</p>
 						<p className="mt-4 text-sm">
 							Experience the power of sound with high-fidelity audio.
@@ -419,7 +421,7 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Wide box spanning 2 columns --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Video Production</p>
 						<p className="mt-4 text-sm">
 							Create cinematic masterpieces with professional-grade tools.
@@ -427,7 +429,7 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Tall box spanning 2 rows --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2 lg:col-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2 lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Gaming</p>
 						<p className="mt-4 text-sm">
 							Immerse yourself in new worlds with cutting-edge graphics and
@@ -436,13 +438,13 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Regular boxes --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">AI</p>
 						<p className="mt-4 text-sm">
 							Harness the power of artificial intelligence.
 						</p>
 					</div>
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">VR</p>
 						<p className="mt-4 text-sm">
 							Step into virtual reality and explore new dimensions.
@@ -450,7 +452,7 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Wide box spanning 3 columns --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-3">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-3 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">IoT Ecosystem</p>
 						<p className="mt-4 text-sm">
 							Connect your world with smart devices. Create a seamless network
@@ -459,13 +461,93 @@ export default function Home() {
 					</div>
 
 					{/* <!-- Regular boxes --> */}
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Cloud</p>
 						<p className="mt-4 text-sm">
 							Scale your projects with powerful cloud solutions.
 						</p>
 					</div>
-					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl col-span-full lg:col-span-1">
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl col-span-full lg:col-span-1 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Security</p>
+						<p className="mt-4 text-sm">
+							Protect your digital assets with advanced cybersecurity.
+						</p>
+					</div>
+					{/* APPLICATIONS */}
+					{/* <!-- Large box spanning 2x2 --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 md:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Photography</p>
+						<p className="mt-4 text-sm">
+							Capture moments in stunning detail with our advanced camera
+							technology. Perfect for professionals and enthusiasts alike.
+						</p>
+					</div>
+
+					{/* <!-- Tall box spanning 3 rows --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Coding</p>
+						<p className="mt-4 text-sm">
+							Build the future with powerful development tools. From web to
+							mobile, create anything you can imagine.
+						</p>
+					</div>
+
+					{/* <!-- Regular box --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-3 lg:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Music</p>
+						<p className="mt-4 text-sm">
+							Experience the power of sound with high-fidelity audio.
+						</p>
+					</div>
+
+					{/* <!-- Wide box spanning 2 columns --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Video Production</p>
+						<p className="mt-4 text-sm">
+							Create cinematic masterpieces with professional-grade tools.
+						</p>
+					</div>
+
+					{/* <!-- Tall box spanning 2 rows --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-2 lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Gaming</p>
+						<p className="mt-4 text-sm">
+							Immerse yourself in new worlds with cutting-edge graphics and
+							gameplay.
+						</p>
+					</div>
+
+					{/* <!-- Regular boxes --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">AI</p>
+						<p className="mt-4 text-sm">
+							Harness the power of artificial intelligence.
+						</p>
+					</div>
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">VR</p>
+						<p className="mt-4 text-sm">
+							Step into virtual reality and explore new dimensions.
+						</p>
+					</div>
+
+					{/* <!-- Wide box spanning 3 columns --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-3 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">IoT Ecosystem</p>
+						<p className="mt-4 text-sm">
+							Connect your world with smart devices. Create a seamless network
+							of intelligent gadgets.
+						</p>
+					</div>
+
+					{/* <!-- Regular boxes --> */}
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
+						<p className="text-black font-bold">Cloud</p>
+						<p className="mt-4 text-sm">
+							Scale your projects with powerful cloud solutions.
+						</p>
+					</div>
+					<div className="bg-gray-100 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl col-span-full lg:col-span-1 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<p className="text-black font-bold">Security</p>
 						<p className="mt-4 text-sm">
 							Protect your digital assets with advanced cybersecurity.
@@ -473,12 +555,17 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="my-10 w-1/2 border-b border-[#FFFFFF] mx-auto border-2" />
-			<div className="flex justify-center mt-20">
-				<div className="text-left">
-					<h1 className="text-left text-5xl mb-10 text-[#FFFFFF]">
-						Applications
-					</h1>
+			<div className="my-5 w-1/2 border-b border-[#FFFFFF] mx-auto border-2" />
+			<div className="flex justify-center">
+				<div className="text-center">
+					<p className="text-[#FFFFFF]">Designed in Figma,</p>
+					<p className="text-[#FFFFFF]">Coded in Visual Studio Code,</p>
+					<p className="text-[#FFFFFF]">Built With Next.js and Tailwind CSS,</p>
+					<p className="text-md mb-10 text-[#FFFFFF]">By Me!</p>
+					<p className="text-[#FFFFFF] mb-10">
+						A template of this portfolio can also be found on my{" "}
+						<a className="font-bold underline">GitHub</a>
+					</p>
 				</div>
 			</div>
 		</main>
