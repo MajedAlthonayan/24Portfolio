@@ -45,22 +45,43 @@ export default function Home() {
 					</h1>
 
 					<div className="flex flex-row justify-center items-center bg-[#121212] space-x-4">
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						<a
+							href="https://www.linkedin.com/in/majedalthonayan/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+						>
 							<FaLinkedin size={25} />
-							LinkedIn
-						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+							<span className="ml-2">LinkedIn</span>
+						</a>
+
+						<a
+							href="https://github.com/majedalthonayan/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+						>
 							<FaGithub size={25} />
 							GitHub
-						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						</a>
+						<a
+							href="mailto:majedalthonayan123@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+						>
 							<MdEmail size={25} />
 							Mail
-						</button>
-						<button className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center">
+						</a>
+						<a
+							href="/Docs/Majed_Althonayan_CV.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+						>
 							<IoDocumentText size={25} />
 							Resume
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -591,10 +612,17 @@ export default function Home() {
 					<p className="text-[#FFFFFF]">Designed in Figma,</p>
 					<p className="text-[#FFFFFF]">Coded in Visual Studio Code,</p>
 					<p className="text-[#FFFFFF]">Built With Next.js and Tailwind CSS,</p>
-					<p className="text-md mb-10 text-[#FFFFFF]">By Me!</p>
+					<p className="text-md mb-10 text-[#FFFFFF]">By Majed (me)</p>
 					<p className="text-[#FFFFFF] mb-10">
 						A template of this portfolio can also be found on my{" "}
-						<a className="font-bold underline">GitHub</a>
+						<a
+							href="https://github.com/MajedAlthonayan/24Portfolio"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="font-bold underline"
+						>
+							GitHub
+						</a>
 					</p>
 				</div>
 			</div>
