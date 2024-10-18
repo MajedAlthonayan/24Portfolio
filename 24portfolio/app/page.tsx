@@ -126,10 +126,7 @@ export default function Home() {
 							</div>
 						</div>
 						<br />
-						<div className="text-white">
-							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus.
-						</div>
+						<div className="text-white">12 GCSE's (A*-B).</div>
 					</div>
 				</div>
 
@@ -150,8 +147,7 @@ export default function Home() {
 
 						<br />
 						<div className="text-white text-right">
-							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus.
+							A*AA in Mathematics, Computer Science and Chemistry.
 						</div>
 					</div>
 				</div>
@@ -162,17 +158,15 @@ export default function Home() {
 					{/* <!-- Card --> */}
 					<div className="rounded-lg w-[calc(100%-4rem)] md:w-[calc(50%-1rem)] p-4 rounded border border-[#FFFFFF] shadow bg-gray-800 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<time className="font-caveat text-white font-bold">2020-2023</time>
-						<div className="font-bold text-white">Undergraduate Degree</div>
-
 						<div className="font-bold text-white">
 							Royal Holloway, University of London
 						</div>
+						<div className="font-bold text-white">Undergraduate Degree</div>
+
 						<br />
 						<div className="text-white">
-							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus. retium lectus quam id leo. Urna e
-							retium lectus quam id leo. Urna e retium lectus quam id leo. Urna
-							e retium lectus quam id leo. Urna
+							BSc in Computer Science with a First Class Honours and an overall
+							average of 81%.
 						</div>
 					</div>
 				</div>
@@ -190,17 +184,15 @@ export default function Home() {
 							</time>
 						</div>
 						<div className="font-bold text-white text-right">
+							Imperial College London
+						</div>
+						<div className="font-bold text-white text-right">
 							Postgraduate Degree
 						</div>
 
-						{/* </div> */}
-						<div className="font-bold text-white text-right">
-							Imperial College London
-						</div>
 						<br />
 						<div className="text-white text-right">
-							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus.
+							MSc in Computing (Security & Reliability) with Distinction.
 						</div>
 					</div>
 				</div>
@@ -216,8 +208,7 @@ export default function Home() {
 
 						<br />
 						<div className="text-white">
-							Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-							morbi blandit cursus risus.
+							Comptia Security+ and Google Cyber Security.
 						</div>
 					</div>
 				</div>
@@ -230,22 +221,25 @@ export default function Home() {
 			</div>
 
 			{/* projects */}
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 text-center mx-auto mt-12 mb-10 sm:mt-16 max-w-6xl">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 text-center mx-auto  mb-10 max-w-6xl">
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Official website
+						Private Backrunning With FHE
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
+						Utilises Fully Homomorphic Encryption (FHE) to enable searchers to
+						blindly backrun private user transactions on decentralised exchanges
+						on the Ethereum blockchain.
 					</p>
 					<a
-						href="#"
+						href="https://github.com/MajedAlthonayan/FHEBackrun"
 						title=""
+						target="_blank"
+						rel="noopener noreferrer"
 						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 						role="button"
 					>
-						View case study
+						View Code
 						<svg
 							aria-hidden="true"
 							className="w-5 h-5 ml-2 -mr-1"
@@ -264,20 +258,23 @@ export default function Home() {
 
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Management system
+						Brain Graph Predection Using Generative GNN's
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
+						Leverages the capabilities of generative Graph Neural Networks
+						(GNNs) to predict high-resolution brain connectivity graphs from
+						their low-resolution counterparts.
 					</p>
 
 					<a
-						href="#"
+						href="https://github.com/MajedAlthonayan/GenerativeGNN"
 						title=""
+						target="_blank"
+						rel="noopener noreferrer"
 						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 						role="button"
 					>
-						View case study
+						View Code
 						<svg
 							aria-hidden="true"
 							className="w-5 h-5 ml-2 -mr-1"
@@ -295,81 +292,24 @@ export default function Home() {
 				</div>
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Official website
+						Neural Network for California House Price Prediction
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
+						A custom, low-level implementation of a multi-layered neural
+						network, built from scratch and incorporating a basic
+						backpropagation algorithm, to predict house prices in California.
+						Developed without relying on any external machine learning
+						libraries.
 					</p>
 					<a
-						href="#"
+						href="https://github.com/MajedAlthonayan/NeuralNetwork"
 						title=""
+						target="_blank"
+						rel="noopener noreferrer"
 						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 						role="button"
 					>
-						View case study
-						<svg
-							aria-hidden="true"
-							className="w-5 h-5 ml-2 -mr-1"
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-						>
-							<path
-								fillRule="evenodd"
-								d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-								clipRule="evenodd"
-							/>
-						</svg>
-					</a>
-				</div>
-
-				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Management system
-					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
-					</p>
-
-					<a
-						href="#"
-						title=""
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-						role="button"
-					>
-						View case study
-						<svg
-							aria-hidden="true"
-							className="w-5 h-5 ml-2 -mr-1"
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-						>
-							<path
-								fillRule="evenodd"
-								d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-								clipRule="evenodd"
-							/>
-						</svg>
-					</a>
-				</div>
-				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Official website
-					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
-					</p>
-					<a
-						href="#"
-						title=""
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-						role="button"
-					>
-						View case study
+						View Code
 						<svg
 							aria-hidden="true"
 							className="w-5 h-5 ml-2 -mr-1"
@@ -388,20 +328,94 @@ export default function Home() {
 
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Management system
+						Decision Tree for Location Detection Using Wi-Fi Signal Strengths
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
-						Flowbite helps you connect with friends, family, and communities of
-						people who share your interests.
+						A decision tree algorithm designed to accurately determine indoor
+						locations by analysing Wi-Fi signal strengths collected from a
+						mobile phone. This approach leverages the unique signal profiles to
+						provide precise location estimations within indoor environments.
 					</p>
 
 					<a
-						href="#"
+						href="https://github.com/MajedAlthonayan/DecisionTrees"
 						title=""
+						target="_blank"
+						rel="noopener noreferrer"
 						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 						role="button"
 					>
-						View case study
+						View Code
+						<svg
+							aria-hidden="true"
+							className="w-5 h-5 ml-2 -mr-1"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fillRule="evenodd"
+								d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								clipRule="evenodd"
+							/>
+						</svg>
+					</a>
+				</div>
+				<div className="space-y-4">
+					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+						On-Chain Ticketing Service with NFT and Marketplace Functionality
+					</h3>
+					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+						This on-chain ticketing service consists of three core components: a
+						non-fungible token (NFT) contract that defines the ticket logic, a
+						primary marketplace where users can create tickets by deploying new
+						instances of the NFT contract, and a secondary marketplace that
+						allows users to place bids for tickets.
+					</p>
+					<a
+						href="https://github.com/MajedAlthonayan/BlockchainTicketing"
+						title=""
+						target="_blank"
+						rel="noopener noreferrer"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						role="button"
+					>
+						View Code
+						<svg
+							aria-hidden="true"
+							className="w-5 h-5 ml-2 -mr-1"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fillRule="evenodd"
+								d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								clipRule="evenodd"
+							/>
+						</svg>
+					</a>
+				</div>
+
+				<div className="space-y-4">
+					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+						PCAP Visualiser for Improved Network Traffic Analysis
+					</h3>
+					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+						A PCAP visualiser enhances the traditional Wireshark user interface
+						by providing advanced filtering and grouping capabilities, enabling
+						users to conduct more efficient analyses of network traffic.
+					</p>
+
+					<a
+						href="https://github.com/MajedAlthonayan/PCAP-Visualiser"
+						title=""
+						target="_blank"
+						rel="noopener noreferrer"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						role="button"
+					>
+						View Code
 						<svg
 							aria-hidden="true"
 							className="w-5 h-5 ml-2 -mr-1"
