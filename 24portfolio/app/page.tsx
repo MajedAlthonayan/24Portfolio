@@ -38,18 +38,20 @@ export default function Home() {
 			}}
 		>
 			<div className="flex justify-center mt-20">
-				<div className="text-left">
-					<h1 className="text-7xl text-[#FFFFFF]">👋 Hi, I'm</h1>
-					<h1 className="text-9xl bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent leading-[1.5]">
+				<div className="text-left w-full px-4 lg:px-0 lg:w-3/4 xl:w-2/3">
+					<h1 className="text-5xl md:text-6xl lg:text-7xl text-[#FFFFFF]">
+						👋 Hello, I'm
+					</h1>
+					<h1 className="text-6xl pb-2 md:text-8xl lg:text-9xl bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent leading-tight md:leading-snug">
 						Majed Althonayan
 					</h1>
 
-					<div className="flex flex-row justify-center items-center bg-[#121212] space-x-4">
+					<div className="flex flex-col sm:flex-row justify-center items-center bg-[#121212] space-y-4 sm:space-y-0 sm:space-x-4 mt-6">
 						<a
 							href="https://www.linkedin.com/in/majedalthonayan/"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+							className="w-full sm:w-1/4 rounded-lg px-6 py-3 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
 						>
 							<FaLinkedin size={25} />
 							<span className="ml-2">LinkedIn</span>
@@ -59,25 +61,27 @@ export default function Home() {
 							href="https://github.com/majedalthonayan/"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+							className="w-full sm:w-1/4 rounded-lg px-6 py-3 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
 						>
 							<FaGithub size={25} />
 							GitHub
 						</a>
+
 						<a
 							href="mailto:majedalthonayan123@gmail.com"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+							className="w-full sm:w-1/4 rounded-lg px-6 py-3 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
 						>
 							<MdEmail size={25} />
 							Mail
 						</a>
+
 						<a
 							href="/Docs/Majed_Althonayan_CV.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="w-1/4 rounded-lg px-10 py-2 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
+							className="w-full sm:w-1/4 rounded-lg px-6 py-3 bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 flex items-center justify-center"
 						>
 							<IoDocumentText size={25} />
 							Resume
@@ -85,18 +89,33 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+
 			<div className="my-10 w-1/2 border-b border-[#FFFFFF] mx-auto border-2" />
 			<div className="flex justify-center">
 				<div className="w-1/2">
-					<p className="text-left text-xl text-[#FFFFFF] mt-4 ">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-						commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-						penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-						Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-						imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-						mollis pretium. Integt dolor. Aenean massa. Cum sociis natoque
-						penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-						Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+					<p className="text-left text-xl text-gray-400 mt-4 ">
+						I am a technology enthusiast based in{" "}
+						<span className="text-white font-normal">🇬🇧 London, England</span>{" "}
+						and I have solid foundations in{" "}
+						<span className="text-white font-normal">
+							Cyber Security, Machine Learning, and Software Development
+						</span>
+						. Along the way, I have obtained degrees 🎓, earned professional
+						certifications and gained hands-on experience that has helped me
+						develop my skills in{" "}
+						<span className="text-white font-normal">
+							systems analysis, problem solving, and building innovative
+							solutions
+						</span>
+						. I’m passionate about continuous learning and love staying at the
+						forefront of development, mostly working with{" "}
+						<span className="text-white font-normal">
+							Python, Java, Typescript and Solidity 👨‍💻
+						</span>
+						. I enjoy tackling complex challenges and creating scalable,
+						efficient applications. I’m excited to bring my expertise to
+						forward-thinking teams and contribute to meaningful projects in
+						today’s fast-moving landscape 😁.
 					</p>
 				</div>
 			</div>
