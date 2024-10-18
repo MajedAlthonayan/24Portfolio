@@ -40,7 +40,7 @@ export default function Home() {
 			<div className="flex justify-center mt-20">
 				<div className="text-left w-full px-4 lg:px-0 lg:w-3/4 xl:w-2/3">
 					<h1 className="text-5xl md:text-6xl lg:text-7xl text-[#FFFFFF]">
-						👋 Hello, I'm
+						👋 Hello, I&apos;m
 					</h1>
 					<h1 className="text-6xl pb-2 md:text-8xl lg:text-9xl bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent leading-tight md:leading-snug">
 						Majed Althonayan
@@ -95,12 +95,12 @@ export default function Home() {
 				<div className="w-1/2">
 					<p className="text-left text-xl text-gray-400 mt-4 ">
 						I am a technology enthusiast based in{" "}
-						<span className="text-white font-normal">🇬🇧 London, England</span>{" "}
-						and I have solid foundations in{" "}
+						<span className="text-white font-normal">London, England</span> and
+						I have solid foundations in{" "}
 						<span className="text-white font-normal">
 							Cyber Security, Machine Learning, and Software Development
 						</span>
-						. Along the way, I have obtained degrees 🎓, earned professional
+						. Along the way, I have obtained degrees, earned professional
 						certifications and gained hands-on experience that has helped me
 						develop my skills in{" "}
 						<span className="text-white font-normal">
@@ -110,12 +110,12 @@ export default function Home() {
 						. I’m passionate about continuous learning and love staying at the
 						forefront of development, mostly working with{" "}
 						<span className="text-white font-normal">
-							Python, Java, Typescript and Solidity 👨‍💻
+							Python, Java, Typescript and Solidity
 						</span>
 						. I enjoy tackling complex challenges and creating scalable,
 						efficient applications. I’m excited to bring my expertise to
 						forward-thinking teams and contribute to meaningful projects in
-						today’s fast-moving landscape 😁.
+						today’s fast-moving landscape.
 					</p>
 				</div>
 			</div>
@@ -141,11 +141,11 @@ export default function Home() {
 						</div>
 						<div className="flex items-center justify- space-x-2 mb-1">
 							<div className="font-bold text-white">
-								Secondary Education - GCSE's
+								Secondary Education - GCSE&apos;s
 							</div>
 						</div>
 						<br />
-						<div className="text-white">12 GCSE's (A*-B).</div>
+						<div className="text-white">12 GCSE&apos;s (A*-B).</div>
 					</div>
 				</div>
 
@@ -161,7 +161,7 @@ export default function Home() {
 							</time>
 						</div>
 						<div className="font-bold text-white text-right">
-							Secondary Education - A Level's
+							Secondary Education - A Level&apos;s
 						</div>
 
 						<br />
@@ -277,7 +277,7 @@ export default function Home() {
 
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-						Brain Graph Predection Using Generative GNN's
+						Brain Graph Predection Using Generative GNN&apos;s
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
 						Leverages the capabilities of generative Graph Neural Networks
@@ -645,7 +645,7 @@ export default function Home() {
 					<p className="text-[#FFFFFF]">Designed in Figma,</p>
 					<p className="text-[#FFFFFF]">Coded in Visual Studio Code,</p>
 					<p className="text-[#FFFFFF]">Built With Next.js and Tailwind CSS,</p>
-					<p className="text-md mb-10 text-[#FFFFFF]">By Majed (me)</p>
+					<p className="text-md mb-10 text-[#FFFFFF]">By Majed (me) 😁</p>
 					<p className="text-[#FFFFFF] mb-10">
 						A template of this portfolio can also be found on my{" "}
 						<a
