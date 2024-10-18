@@ -242,10 +242,10 @@ export default function Home() {
 			{/* projects */}
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 text-center mx-auto  mb-10 max-w-6xl">
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						Private Backrunning With FHE
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						Utilises Fully Homomorphic Encryption (FHE) to enable searchers to
 						blindly backrun private user transactions on decentralised exchanges
 						on the Ethereum blockchain.
@@ -255,7 +255,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
@@ -276,10 +276,10 @@ export default function Home() {
 				</div>
 
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						Brain Graph Predection Using Generative GNN&apos;s
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						Leverages the capabilities of generative Graph Neural Networks
 						(GNNs) to predict high-resolution brain connectivity graphs from
 						their low-resolution counterparts.
@@ -290,7 +290,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
@@ -310,10 +310,10 @@ export default function Home() {
 					</a>
 				</div>
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						Neural Network for California House Price Prediction
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						A custom, low-level implementation of a multi-layered neural
 						network, built from scratch and incorporating a basic
 						backpropagation algorithm, to predict house prices in California.
@@ -325,7 +325,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
@@ -346,10 +346,10 @@ export default function Home() {
 				</div>
 
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						Decision Tree for Location Detection Using Wi-Fi Signal Strengths
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						A decision tree algorithm designed to accurately determine indoor
 						locations by analysing Wi-Fi signal strengths collected from a
 						mobile phone. This approach leverages the unique signal profiles to
@@ -361,7 +361,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
@@ -381,10 +381,10 @@ export default function Home() {
 					</a>
 				</div>
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						On-Chain Ticketing Service with NFT and Marketplace Functionality
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						This on-chain ticketing service consists of three core components: a
 						non-fungible token (NFT) contract that defines the ticket logic, a
 						primary marketplace where users can create tickets by deploying new
@@ -396,7 +396,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
@@ -417,10 +417,10 @@ export default function Home() {
 				</div>
 
 				<div className="space-y-4">
-					<h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+					<h3 className="text-2xl font-bold leading-tight text-white">
 						PCAP Visualiser for Improved Network Traffic Analysis
 					</h3>
-					<p className="text-lg max-w-md font-normal text-gray-500 dark:text-gray-400 text-center mx-auto">
+					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						A PCAP visualiser enhances the traditional Wireshark user interface
 						by providing advanced filtering and grouping capabilities, enabling
 						users to conduct more efficient analyses of network traffic.
@@ -431,7 +431,7 @@ export default function Home() {
 						title=""
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+						className="text-white bg-[#121212] text-[#FFFFFF] font-bold shadow-lg hover:bg-[#2D2D2D] hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 justify-center inline-flex items-center focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
 						role="button"
 					>
 						View Code
