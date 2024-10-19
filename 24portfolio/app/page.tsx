@@ -95,12 +95,12 @@ export default function Home() {
 				<div className="w-1/2">
 					<p className="text-left text-xl text-gray-400 mt-4 ">
 						I am a technology enthusiast based in{" "}
-						<span className="text-white font-normal">London, England</span> and
-						I have solid foundations in{" "}
+						<span className="text-white font-normal">London, England</span>,
+						specialising in{" "}
 						<span className="text-white font-normal">
 							Cyber Security, Machine Learning, and Software Development
 						</span>
-						. Along the way, I have obtained degrees, earned professional
+						. Along this journey, I have obtained degrees, earned professional
 						certifications and gained hands-on experience that has helped me
 						develop my skills in{" "}
 						<span className="text-white font-normal">
@@ -211,7 +211,7 @@ export default function Home() {
 
 						<br />
 						<div className="text-white text-right">
-							MSc in Computing (Security & Reliability) with Distinction.
+							MSc in Computing (Security & Reliability) with a Distinction.
 						</div>
 					</div>
 				</div>
@@ -243,12 +243,12 @@ export default function Home() {
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 text-center mx-auto  mb-10 max-w-6xl">
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-white">
-						Private Backrunning With FHE
+						Blind Backrunning With Fully Homomorphic Encryption
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
-						Utilises Fully Homomorphic Encryption (FHE) to enable searchers to
-						blindly backrun private user transactions on decentralised exchanges
-						on the Ethereum blockchain.
+						This protocol utilises Fully Homomorphic Encryption (FHE) to enable
+						searchers to blindly backrun private user transactions on
+						decentralised exchanges on the Ethereum blockchain.
 					</p>
 					<a
 						href="https://github.com/MajedAlthonayan/FHEBackrun"
@@ -280,9 +280,9 @@ export default function Home() {
 						Brain Graph Predection Using Generative GNN&apos;s
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
-						Leverages the capabilities of generative Graph Neural Networks
-						(GNNs) to predict high-resolution brain connectivity graphs from
-						their low-resolution counterparts.
+						This machine learning model leverages the capabilities of generative
+						Graph Neural Networks (GNNs) to predict high-resolution brain MRIs
+						from their low-resolution counterparts.
 					</p>
 
 					<a
@@ -314,11 +314,11 @@ export default function Home() {
 						Neural Network for California House Price Prediction
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
-						A custom, low-level implementation of a multi-layered neural
-						network, built from scratch and incorporating a basic
-						backpropagation algorithm, to predict house prices in California.
-						Developed without relying on any external machine learning
-						libraries.
+						This project implements a custom, low-level implementation of a
+						multi-layered neural network, built from scratch and incorporating a
+						backpropagation algorithm to predict house prices in California.
+						This model was developed entirely from scratch, without relying on
+						any external machine learning libraries.
 					</p>
 					<a
 						href="https://github.com/MajedAlthonayan/NeuralNetwork"
@@ -382,14 +382,14 @@ export default function Home() {
 				</div>
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-white">
-						On-Chain Ticketing Service with NFT and Marketplace Functionality
+						On-Chain Ticketing Service using NFTs
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						This on-chain ticketing service consists of three core components: a
 						non-fungible token (NFT) contract that defines the ticket logic, a
 						primary marketplace where users can create tickets by deploying new
 						instances of the NFT contract, and a secondary marketplace that
-						allows users to place bids for tickets.
+						allows users to sell and place bids for re-sold tickets.
 					</p>
 					<a
 						href="https://github.com/MajedAlthonayan/BlockchainTicketing"
@@ -421,9 +421,10 @@ export default function Home() {
 						PCAP Visualiser for Improved Network Traffic Analysis
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
-						A PCAP visualiser enhances the traditional Wireshark user interface
-						by providing advanced filtering and grouping capabilities, enabling
-						users to conduct more efficient analyses of network traffic.
+						A packet visualiser which enhances the traditional Wireshark user
+						interface by providing advanced filtering and grouping capabilities,
+						enabling users to conduct more efficient analysis of network
+						traffic.
 					</p>
 
 					<a
@@ -449,6 +450,21 @@ export default function Home() {
 							/>
 						</svg>
 					</a>
+				</div>
+			</div>
+			<div className="flex justify-center">
+				<div className="text-center">
+					<p className="text-[#FFFFFF] mb-10 text-2xl">
+						Checkout some of my other projects on{" "}
+						<a
+							href="https://github.com/MajedAlthonayan/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="font-bold underline"
+						>
+							GitHub
+						</a>
+					</p>
 				</div>
 			</div>
 			<div className="my-10 w-1/2 border-b border-[#FFFFFF] mx-auto border-2" />
