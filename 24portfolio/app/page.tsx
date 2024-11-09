@@ -145,7 +145,9 @@ export default function Home() {
 							</div>
 						</div>
 						<br />
-						<div className="text-white">12 GCSE&apos;s (A*-B).</div>
+						<div className="text-white underline font-bold">
+							12 GCSE&apos;s (A*-B).
+						</div>
 					</div>
 				</div>
 
@@ -166,7 +168,8 @@ export default function Home() {
 
 						<br />
 						<div className="text-white text-right">
-							A*AA in Mathematics, Computer Science and Chemistry.
+							<span className="underline font-bold">A*AA</span> in Mathematics,
+							Computer Science and Chemistry.
 						</div>
 					</div>
 				</div>
@@ -184,8 +187,10 @@ export default function Home() {
 
 						<br />
 						<div className="text-white">
-							BSc in Computer Science with a First Class Honours and an overall
-							average of 81%.
+							BSc in Computer Science with a{" "}
+							<span className="underline font-bold">First Class Honours</span>{" "}
+							and an overall average of{" "}
+							<span className="underline font-bold">81%</span>.
 						</div>
 					</div>
 				</div>
@@ -211,7 +216,8 @@ export default function Home() {
 
 						<br />
 						<div className="text-white text-right">
-							MSc in Computing (Security & Reliability) with a Distinction.
+							MSc in Computing (Security & Reliability) with a{" "}
+							<span className="underline font-bold">Distinction.</span>
 						</div>
 					</div>
 				</div>
@@ -227,7 +233,9 @@ export default function Home() {
 
 						<br />
 						<div className="text-white">
-							Comptia Security+ and Google Cyber Security.
+							<span className="underline font-bold">Comptia Security+</span> and{" "}
+							<span className="underline font-bold">Google Cyber Security</span>
+							.
 						</div>
 					</div>
 				</div>
