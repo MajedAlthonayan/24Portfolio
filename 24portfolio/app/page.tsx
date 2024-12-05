@@ -285,7 +285,7 @@ export default function Home() {
 
 				<div className="space-y-4">
 					<h3 className="text-2xl font-bold leading-tight text-white">
-						Brain Graph Predection Using Generative GNN&apos;s
+						Brain Graph Prediction Using Generative GNN&apos;s
 					</h3>
 					<p className="text-lg max-w-md font-normal text-gray-400 text-center mx-auto">
 						This machine learning model leverages the capabilities of generative
