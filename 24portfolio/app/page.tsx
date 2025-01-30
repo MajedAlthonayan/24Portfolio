@@ -463,7 +463,7 @@ export default function Home() {
 			<div className="flex justify-center">
 				<div className="text-center">
 					<p className="text-[#FFFFFF] mb-10 text-2xl">
-						Checkout some of my other projects on{" "}
+						Check out some of my other projects on{" "}
 						<a
 							href="https://github.com/MajedAlthonayan/"
 							target="_blank"
