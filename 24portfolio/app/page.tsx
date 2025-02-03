@@ -8,6 +8,8 @@ import {
 	FaHtml5,
 	FaCss3,
 	FaChrome,
+	FaAws,
+	FaDocker,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoDocumentText, IoLogoJavascript } from "react-icons/io5";
@@ -24,10 +26,13 @@ import {
 	SiSolidity,
 	SiWireshark,
 	SiZsh,
+	SiKubernetes,
+	SiPandas,
 } from "react-icons/si";
 
 import { DiMysql } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
+import { FaA } from "react-icons/fa6";
 
 export default function Home() {
 	return (
@@ -567,8 +572,8 @@ export default function Home() {
 					{/* <!-- Large box spanning 2x2 --> */}
 					<div className="bg-gray-800 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-2 md:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200 ">
 						<div className="flex flex-col justify-center items-center text-white text-center h-full">
-							<SiOpenai size={50} />
-							<p className="text-white font-bold">Chat GPT</p>
+							<FaDocker size={50} />
+							<p className="text-white font-bold">Docker</p>
 						</div>
 					</div>
 
@@ -583,8 +588,8 @@ export default function Home() {
 					{/* <!-- Regular box --> */}
 					<div className="bg-gray-800 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:row-span-3 lg:row-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<div className="flex flex-col justify-center items-center text-white text-center h-full">
-							<FaChrome size={50} />
-							<p className="text-white font-bold">Chrome</p>
+							<SiPandas size={50} />
+							<p className="text-white font-bold">Pandas</p>
 						</div>
 					</div>
 
@@ -613,8 +618,8 @@ export default function Home() {
 					</div>
 					<div className="bg-gray-800 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl lg:col-span-2 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<div className="flex flex-col justify-center items-center text-white text-center h-full">
-							<VscVscode size={50} />
-							<p className="text-white font-bold">VS Code</p>
+							<FaAws size={50} />
+							<p className="text-white font-bold">AWS</p>
 						</div>
 					</div>
 
@@ -650,8 +655,8 @@ export default function Home() {
 					</div>
 					<div className="bg-gray-800 ring-1 ring-inset ring-gray-200 shadow p-6 rounded-xl md:col-span-3 hover:scale-105 hover:shadow-xl transition-transform transition-shadow duration-200">
 						<div className="flex flex-col justify-center items-center text-white text-center h-full">
-							<SiMetasploit size={50} />
-							<p className="text-white font-bold">Metasploit</p>
+							<SiKubernetes size={50} />
+							<p className="text-white font-bold">Kubernetes</p>
 						</div>
 					</div>
 					{/* <!-- Regular boxes --> */}
