@@ -7,7 +7,6 @@ import {
 	FaLinux,
 	FaHtml5,
 	FaCss3,
-	FaChrome,
 	FaAws,
 	FaDocker,
 } from "react-icons/fa";
@@ -16,10 +15,8 @@ import { IoDocumentText, IoLogoJavascript } from "react-icons/io5";
 import {
 	SiFigma,
 	SiFirebase,
-	SiMetasploit,
 	SiNextdotjs,
 	SiNumpy,
-	SiOpenai,
 	SiOpencv,
 	SiPytorch,
 	SiScikitlearn,
@@ -31,8 +28,8 @@ import {
 } from "react-icons/si";
 
 import { DiMysql } from "react-icons/di";
-import { VscVscode } from "react-icons/vsc";
-import { FaA } from "react-icons/fa6";
+// import { VscVscode } from "react-icons/vsc";
+// import { FaA } from "react-icons/fa6";
 
 export default function Home() {
 	return (
