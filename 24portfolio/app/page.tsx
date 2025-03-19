@@ -235,7 +235,7 @@ export default function Home() {
 
 						<br />
 						<div className="text-white">
-							<span className="underline font-bold">Comptia Security+</span> and{" "}
+							{/* <span className="underline font-bold">Comptia Security+</span> and{" "} */}
 							<span className="underline font-bold">Google Cyber Security</span>
 							.
 						</div>
